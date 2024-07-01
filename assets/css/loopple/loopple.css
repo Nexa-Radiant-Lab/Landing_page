@@ -139,3 +139,14 @@
   white-space: nowrap;
   border-radius: 6px;
 }
+
+
+body {
+  overflow-x: hidden;
+}
+@media (max-width: 600px) {
+  body {
+      overflow-x: auto;
+  }
+}
+
